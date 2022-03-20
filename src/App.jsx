@@ -13,11 +13,11 @@ function App() {
     <div className={styles.background}>
       <div className={styles.container}>
         <div className={styles.contentArea}>
+          <Summary />
           <ContactInfo />
           <Education />
           <Hobby />
           <Skills />
-          <Summary />
           <WorkExperience />
         </div>
       </div>

@@ -1,5 +1,3 @@
-.background {
-}
 .background::before {
   content: "";
   z-index: -1;
