@@ -30,12 +30,26 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Source+Sans+Pro&display=swap");
 
 :root {
+  /* main colors */
+
+  --color-1: #3dc39b;
+  --color-2: #928cf8;
+  --color-3: #fe74a6;
+  --color-4: #5b6dff;
+  --color-4: #ffe975;
+
+  /* whites */
+
   --bg-color-1: hsl(240, 62%, 98%);
   --bg-color-2: hsl(240, 56%, 95%);
   --bg-color-3: #f4f4f4;
+
+  /* grays */
+
+  --gray-1: #595959;
 }
 * {
   margin: 0;
@@ -52,5 +66,6 @@ body {
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
+  background-color: white;
+  color: black;
 }

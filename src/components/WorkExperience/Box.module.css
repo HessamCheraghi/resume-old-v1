@@ -1,0 +1,70 @@
+.box {
+  padding: 2.4rem;
+  background: white;
+  border: 1px solid black;
+  border-radius: 1.2rem;
+  box-shadow: 1.6rem 1.6rem 0 var(--color-1);
+}
+.box:nth-child(2) {
+  box-shadow: 1.6rem 1.6rem 0px var(--color-2);
+}
+.box:nth-child(3) {
+  box-shadow: 1.6rem 1.6rem 0px var(--color-3);
+}
+.name {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+.summary {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--gray-1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.stack {
+  list-style: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  margin-bottom: 1.2rem;
+}
+.tech {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  display: flex;
+  align-items: center;
+}
+.tech::before {
+  content: "";
+  display: inline-block;
+  background-color: var(--gray-1);
+  width: 3px;
+  height: 3px;
+  border-radius: 10px;
+  margin-right: 0.7rem;
+}
+.link {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+
+  display: flex;
+  align-items: center;
+}
+.link svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: 0.4rem;
+}
