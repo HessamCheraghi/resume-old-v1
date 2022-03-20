@@ -1,10 +1,26 @@
+.background {
+}
+.background::before {
+  content: "";
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 50vh solid var(--bg-color-1);
+  border-left: 50vw solid var(--bg-color-1);
+  border-right: 50vw solid var(--bg-color-2);
+  border-bottom: 50vh solid var(--bg-color-2);
+}
 .container {
   max-width: 80rem;
   margin: 4.8rem auto;
   background-color: #ffffff;
   opacity: 0.8;
   background-image: radial-gradient(#b3b3b3 1px, #ffffff 1px);
-  background-size: 20px 20px;
+  background-size: 18px 18px;
+  padding-bottom: 8.8rem;
   /* temporary styles */
   height: 142rem;
   overflow-x: hidden;
@@ -18,7 +34,7 @@
 
   /* offset */
   position: relative;
-  top: 2rem;
+  top: 3.8rem;
   left: 2rem;
   width: 76.8rem;
 }

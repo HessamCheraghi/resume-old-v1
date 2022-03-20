@@ -1,10 +1,8 @@
 import "./App.css";
-import Background from "./components/Background";
 import Frame from "./components/Frame";
 function App() {
   return (
     <div className="App">
-      <Background />
       <Frame>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi modi
         repellat perferendis, iste ab ex praesentium maiores quos libero sint
