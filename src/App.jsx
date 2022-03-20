@@ -3,7 +3,7 @@ import styles from "./App.module.css";
 //components
 import Contact from "./components/Contact";
 import Education from "./components/Education";
-import Hobby from "./components/Hobby";
+import Footnote from "./components/Footnote";
 import Skills from "./components/Skills";
 import Summary from "./components/Summary";
 import WorkExperience from "./components/WorkExperience";
@@ -19,8 +19,8 @@ function App() {
           <Contact contact={data.contact} />
           <WorkExperience projects={data.projects} />
           <Education education={data.education} />
-          <Hobby />
           <Skills />
+          <Footnote />
         </div>
       </div>
     </div>

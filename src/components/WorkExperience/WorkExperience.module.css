@@ -1,4 +1,5 @@
 .container {
+  grid-row: 2/6;
 }
 .title {
   font-weight: 700;

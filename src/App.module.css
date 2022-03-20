@@ -19,8 +19,6 @@
   background-image: radial-gradient(#b3b3b3 1px, #ffffff 1px);
   background-size: 18px 18px;
   overflow-x: hidden;
-  /* temporary styles */
-  height: 142rem;
 }
 .contentArea {
   width: 76.8rem;
