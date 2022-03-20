@@ -47,22 +47,31 @@
 .tech::before {
   content: "";
   display: inline-block;
-  background-color: var(--gray-1);
-  width: 3px;
-  height: 3px;
+  /* background-color: var(--gray-1); */
+  background-color: black;
+  width: 4px;
+  height: 4px;
   border-radius: 10px;
   margin-right: 0.7rem;
 }
-.link {
+.link:link,
+.link:visited {
   font-family: "Source Sans Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.8rem;
+  text-decoration: none;
+  color: var(--gray-1);
 
   display: flex;
   align-items: center;
 }
+.link:active,
+.link:hover {
+  color: black;
+}
+
 .link svg {
   width: 1.6rem;
   height: 1.6rem;

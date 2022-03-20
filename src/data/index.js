@@ -65,9 +65,26 @@ export const data = {
     },
   ],
   accomplishments: [],
-  contactInfo: [
-    { type: "email", link: "" },
-    { type: "Github", link: "" },
-    { type: "Linkedin", link: "" },
+  contact: [
+    {
+      type: "Email",
+      link: "mailto:hessam.ch.rose@gmail.com",
+      label: "hessam.ch.rose@gmail.com",
+    },
+    {
+      type: "Phone Number",
+      link: "tel:+98-917-494-4275",
+      label: "+98-917-494-4275",
+    },
+    {
+      type: "Github",
+      link: "https://github.com/HessamCheraghi",
+      label: "github.com/HessamCheraghi",
+    },
+    {
+      type: "Linkedin",
+      link: "https://www.linkedin.com/in/hessam-cheraghi/",
+      label: "linkedin.com/in/hessam-cheraghi",
+    },
   ],
 };

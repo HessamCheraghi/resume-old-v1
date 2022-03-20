@@ -1,7 +1,7 @@
 import styles from "./App.module.css";
 
 //components
-import ContactInfo from "./components/ContactInfo";
+import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Hobby from "./components/Hobby";
 import Skills from "./components/Skills";
@@ -16,7 +16,7 @@ function App() {
       <div className={styles.container}>
         <div className={styles.contentArea}>
           <Summary fullName={data.fullName} jobTitle={data.jobTitle} />
-          <ContactInfo />
+          <Contact contact={data.contact} />
           <WorkExperience projects={data.projects} />
           <Education />
           <Hobby />
