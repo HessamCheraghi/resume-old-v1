@@ -8,14 +8,16 @@ import Skills from "./components/Skills";
 import Summary from "./components/Summary";
 import WorkExperience from "./components/WorkExperience";
 
+import { data } from "./data";
+
 function App() {
   return (
     <div className={styles.background}>
       <div className={styles.container}>
         <div className={styles.contentArea}>
-          <Summary />
+          <Summary fullName={data.fullName} jobTitle={data.jobTitle} />
           <ContactInfo />
-          <WorkExperience />
+          <WorkExperience projects={data.projects} />
           <Education />
           <Hobby />
           <Skills />
