@@ -11,7 +11,7 @@ export const data = {
     "React",
     "Git",
     "Figma",
-    "SASS",
+    "EmotionJS",
     "Material UI",
   ],
   familiarity: [
@@ -20,6 +20,7 @@ export const data = {
     "StoryBook",
     "Framer Motion",
     "Adobe Illustrator",
+    "SASS",
     "GSAP",
     "NodeJS",
   ],

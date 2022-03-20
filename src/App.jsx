@@ -19,7 +19,7 @@ function App() {
           <Contact contact={data.contact} />
           <WorkExperience projects={data.projects} />
           <Education education={data.education} />
-          <Skills />
+          <Skills worked={data.technology} familiar={data.familiarity} />
           <Footnote />
         </div>
       </div>
