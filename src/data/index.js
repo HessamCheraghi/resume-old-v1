@@ -60,8 +60,9 @@ export const data = {
   ],
   education: [
     {
-      major: " Engineering student at shiraz university",
-      duration: "since 2019 till now",
+      major: "Engineering Student",
+      place: "at Shiraz University",
+      duration: "2019 - now",
     },
   ],
   accomplishments: [],

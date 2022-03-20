@@ -18,7 +18,7 @@ function App() {
           <Summary fullName={data.fullName} jobTitle={data.jobTitle} />
           <Contact contact={data.contact} />
           <WorkExperience projects={data.projects} />
-          <Education />
+          <Education education={data.education} />
           <Hobby />
           <Skills />
         </div>
