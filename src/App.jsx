@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.css";
 
 //components
 import ContactInfo from "./components/ContactInfo";
@@ -7,18 +7,20 @@ import Hobby from "./components/Hobby";
 import Skills from "./components/Skills";
 import Summary from "./components/Summary";
 import WorkExperience from "./components/WorkExperience";
-import Frame from "./components/Frame";
+
 function App() {
   return (
-    <div className="App">
-      <Frame>
-        <ContactInfo />
-        <Education />
-        <Hobby />
-        <Skills />
-        <Summary />
-        <WorkExperience />
-      </Frame>
+    <div className={styles.background}>
+      <div className={styles.container}>
+        <div className={styles.contentArea}>
+          <ContactInfo />
+          <Education />
+          <Hobby />
+          <Skills />
+          <Summary />
+          <WorkExperience />
+        </div>
+      </div>
     </div>
   );
 }
