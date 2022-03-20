@@ -35,4 +35,7 @@
   position: relative;
   top: 3.8rem;
   left: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
 }

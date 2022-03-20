@@ -15,10 +15,10 @@ function App() {
         <div className={styles.contentArea}>
           <Summary />
           <ContactInfo />
+          <WorkExperience />
           <Education />
           <Hobby />
           <Skills />
-          <WorkExperience />
         </div>
       </div>
     </div>
