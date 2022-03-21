@@ -6,10 +6,10 @@
   box-shadow: 1.6rem 1.6rem 0 var(--color-1);
 }
 .box:nth-child(2) {
-  box-shadow: 1.6rem 1.6rem 0px var(--color-2);
+  box-shadow: 1.6rem 1.6rem 0 var(--color-2);
 }
 .box:nth-child(3) {
-  box-shadow: 1.6rem 1.6rem 0px var(--color-3);
+  box-shadow: 1.6rem 1.6rem 0 var(--color-3);
 }
 .name {
   font-weight: 900;
@@ -47,11 +47,10 @@
 .tech::before {
   content: "";
   display: inline-block;
-  /* background-color: var(--gray-1); */
   background-color: black;
-  width: 4px;
-  height: 4px;
-  border-radius: 10px;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 1rem;
   margin-right: 0.7rem;
 }
 .link:link,

@@ -1,29 +1,35 @@
 export const data = {
   fullName: "Hessam A. Cheraghi",
   jobTitle: "Junior Front-end Developer",
-  summary: "",
-  skills: [],
+  skills: [
+    {
+      title: "Technologies I Worked With",
+      technology: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git",
+        "Figma",
+        "EmotionJS",
+        "Material UI",
+      ],
+    },
+    {
+      title: "Things that I'm familiar with",
+      technology: [
+        "SASS",
+        "Framer Motion",
+        "GSAP",
+        "Adobe Illustrator",
+        "React Router",
+        "React Query",
+        "Story Book",
+        "NodeJS",
+      ],
+    },
+  ],
   experience: [],
-  technology: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Git",
-    "Figma",
-    "EmotionJS",
-    "Material UI",
-  ],
-  familiarity: [
-    "React Router",
-    "React Query",
-    "StoryBook",
-    "Framer Motion",
-    "Adobe Illustrator",
-    "SASS",
-    "GSAP",
-    "NodeJS",
-  ],
   projects: [
     {
       name: "Bank User Interface",
@@ -47,16 +53,16 @@ export const data = {
       stack: ["React", "SASS", "Framer Motion", "Figma"],
     },
     // {
-    //   projectName: "My personal portfolio",
+    //   name: "My personal portfolio",
     //   link: "#",
-    //   projectSummary: "",
-    //   projectStack: ["React", "SASS", "Framer Motion", "GSAP", "Canva"],
+    //   summary: "",
+    //   stack: ["React", "SASS", "Framer Motion", "GSAP", "Canva"],
     // },
     // {
-    //   projectName: "This resume",
+    //   name: "This resume",
     //   link: "#",
-    //   projectSummary: "",
-    //   projectStack: ["React", "Material UI"],
+    //   summary: "",
+    //   stack: ["React", "Material UI"],
     // },
   ],
   education: [
@@ -66,7 +72,6 @@ export const data = {
       duration: "2019 - now",
     },
   ],
-  accomplishments: [],
   contact: [
     {
       type: "Email",
