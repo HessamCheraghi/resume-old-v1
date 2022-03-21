@@ -12,7 +12,7 @@
 .columnCard {
   display: flex;
   flex-direction: column;
-  /* gap: 3.2rem; */
+  gap: 3.2rem;
 
   position: relative;
   left: -6.8rem;

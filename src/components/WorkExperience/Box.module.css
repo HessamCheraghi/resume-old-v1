@@ -5,16 +5,12 @@
   border: 1px solid black;
   border-radius: 1.2rem;
   box-shadow: 1.6rem 1.6rem 0 var(--color-1);
-  margin-bottom: 3.2rem;
 }
 .box:nth-child(2) {
   box-shadow: 1.6rem 1.6rem 0 var(--color-2);
 }
 .box:nth-child(3) {
   box-shadow: 1.6rem 1.6rem 0 var(--color-3);
-}
-.box:last-child {
-  margin-bottom: 0;
 }
 .name {
   font-weight: 900;
