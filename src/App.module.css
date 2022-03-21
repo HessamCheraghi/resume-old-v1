@@ -1,4 +1,6 @@
 .background::before {
+  /* fancy background! */
+
   content: "";
   z-index: -1;
   position: fixed;
@@ -15,6 +17,7 @@
   max-width: 80rem;
   margin: 4.8rem auto;
   padding-bottom: 8.8rem;
+
   background-color: white;
   background-image: radial-gradient(var(--gray-2) 1px, white 1px);
   background-size: 18px 18px;
@@ -25,7 +28,6 @@
   margin: 4.8rem;
   padding: 4.8rem;
   background-color: var(--bg-color-3);
-  border-radius: 4rem;
   box-shadow: 2.4rem 2rem 0 var(--color-5);
   border-radius: 4rem;
 
@@ -43,12 +45,14 @@
     display: none;
   }
   .container {
+    /* to fit container in A4 page*/
     margin: 0;
     padding-bottom: 5.6rem;
-    /* works only in chrome */
+    /* only works in chrome, when printing in firefox manually scale the page to 99% */
     zoom: 0.991;
   }
   .contentArea {
+    /* to fit in one page*/
     margin: 2.4rem 4.8rem;
   }
 }

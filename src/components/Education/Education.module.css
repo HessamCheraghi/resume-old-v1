@@ -1,5 +1,6 @@
 .container {
   margin-top: 5.4rem;
+
   width: 27rem;
   position: relative;
   left: -6.8rem;
@@ -25,11 +26,11 @@
   margin-bottom: 3.2rem;
 }
 .duration {
-  font-family: "Source Sans Pro" sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: var(--gray-1);
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.2rem;
 }
 .major {

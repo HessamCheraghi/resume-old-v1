@@ -6,7 +6,7 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Sans+Pro&display=swap");
 
 :root {
   /* main colors */
@@ -19,8 +19,8 @@
 
   /* whites */
 
-  --bg-color-1: hsl(240, 62%, 98%);
-  --bg-color-2: hsl(240, 56%, 95%);
+  --bg-color-1: #f7f7fd;
+  --bg-color-2: #ebebf9;
   --bg-color-3: #f4f4f4;
 
   /* grays */
