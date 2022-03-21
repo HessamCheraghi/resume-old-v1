@@ -2,9 +2,9 @@ import styles from "./Summary.module.css";
 
 export default function Summary({ fullName, jobTitle }) {
   return (
-    <div className={styles.container}>
-      <div className={styles.fullName}>{fullName}</div>
-      <div className={styles.jobTitle}>{jobTitle}</div>
-    </div>
+    <header className={styles.container}>
+      <h1 className={styles.fullName}>{fullName}</h1>
+      <p className={styles.jobTitle}>{jobTitle}</p>
+    </header>
   );
 }

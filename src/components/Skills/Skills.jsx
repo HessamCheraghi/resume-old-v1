@@ -2,16 +2,16 @@ import styles from "./Skills.module.css";
 
 export default function Skills({ skills }) {
   return (
-    <div className={styles.container}>
-      <div className={styles.title}>Skills</div>
+    <section className={styles.container}>
+      <h2 className={styles.title}>Skills</h2>
       {skills.map((skill) => (
-        <div key={skill.title} className={styles.box}>
-          <div className={styles.name}>{skill.title}</div>
-          <div className={styles.description}>
+        <article key={skill.title} className={styles.box}>
+          <h3 className={styles.name}>{skill.title}</h3>
+          <p className={styles.description}>
             {skill.technology.map((tech) => `${tech}, `)}...
-          </div>
-        </div>
+          </p>
+        </article>
       ))}
-    </div>
+    </section>
   );
 }

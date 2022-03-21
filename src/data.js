@@ -35,20 +35,19 @@ export const data = {
       name: "Bank User Interface",
       link: "https://hessamcheraghi.github.io/sess-rip-off/",
       summary:
-        "A simple and elegant user interface for a fictional bank, the goal of this project was practicing the usage of array methods in JavaScript to display data in a single page application",
+        "A simple and elegant user interface for a fictional bank, the goal was practicing the usage of array methods in JavaScript to display data in a single page application.",
       stack: ["HTML", "CSS", "Pure JavaScript"],
     },
     {
       name: "A UI update for SESS",
       link: "#",
       summary:
-        "SESS (Shiraz university Education Support Subsystem) is a website where all of the support and services for students and professors is done through it and Despite having numerous usages, it looks old-fashioned so I made a new user interface for this website that looks quite modern.",
+        "SESS (Shiraz university Education Support Subsystem) is a website where all of the support & services for students is done through it and Despite serving numerous purposes it looks too old so I made modern user interface for it.",
       stack: ["React", "React Router", "Material UI", "EmotionJS"],
     },
     {
       name: "A Magnificent Landing page for startups",
-      summary:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi voluptates fugit voluptatibus repellendus beatae rem ipsa fuga, aut, dolores aspernatur debitis dolor incidunt dolorem earum nemo vitae, minus cum tenetur!",
+      summary: "",
       link: "#",
       stack: ["React", "SASS", "Framer Motion", "Figma"],
     },

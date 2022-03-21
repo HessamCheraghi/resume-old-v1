@@ -2,10 +2,10 @@ import styles from "./Box.module.css";
 import OpenOutline from "./OpenOutline";
 export default function Box({ project }) {
   return (
-    <div className={styles.box}>
-      <div className={styles.name}>{project.name}</div>
+    <article className={styles.box}>
+      <h3 className={styles.name}>{project.name}</h3>
 
-      <div className={styles.summary}>{project.summary}</div>
+      <p className={styles.summary}>{project.summary}</p>
 
       <ul className={styles.stack}>
         {project.stack.map((tech) => (
@@ -25,6 +25,6 @@ export default function Box({ project }) {
         To See The Project Click Here
         <OpenOutline />
       </a>
-    </div>
+    </article>
   );
 }

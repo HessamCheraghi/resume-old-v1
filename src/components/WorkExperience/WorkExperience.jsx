@@ -3,13 +3,13 @@ import styles from "./WorkExperience.module.css";
 
 export default function WorkExperience({ projects }) {
   return (
-    <div className={styles.container}>
-      <div className={styles.title}>Work Experience</div>
+    <section className={styles.container}>
+      <h2 className={styles.title}>Work Experience</h2>
       <div className={styles.columnCard}>
         {projects.map((project) => (
           <Box key={project.name} project={project} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

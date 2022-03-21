@@ -63,7 +63,7 @@
   text-decoration: none;
   color: var(--gray-1);
 
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 .link:active,
