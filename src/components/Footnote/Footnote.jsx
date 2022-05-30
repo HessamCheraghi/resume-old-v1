@@ -8,7 +8,7 @@ export default function Footnote() {
         className={styles.link}
         download
       >
-        You can see this resume online !
+        Download this resume.
       </a>
     </footer>
   );
