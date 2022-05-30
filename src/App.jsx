@@ -18,8 +18,8 @@ function App() {
           <Summary fullName={data.fullName} jobTitle={data.jobTitle} />
           <Contact contact={data.contact} />
           <WorkExperience projects={data.projects} />
-          <Education education={data.education} />
           <Skills skills={data.skills} />
+          <Education other={data.other} />
           <Footnote />
         </div>
       </div>

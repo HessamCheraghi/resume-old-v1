@@ -1,5 +1,5 @@
 .container {
-  margin-top: 5.4rem;
+  margin-top: 2.2rem;
 
   width: 27rem;
   position: relative;
@@ -23,7 +23,7 @@
   flex-direction: column;
   gap: 0.8rem;
 
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.6rem;
 }
 .duration {
   font-family: "Source Sans Pro", sans-serif;

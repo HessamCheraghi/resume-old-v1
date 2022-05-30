@@ -3,7 +3,7 @@ export const data = {
   jobTitle: "Junior Front-end Developer",
   skills: [
     {
-      title: "Technologies I Worked With",
+      title: "Technologies I've worked with:",
       technology: [
         "HTML",
         "CSS",
@@ -11,64 +11,61 @@ export const data = {
         "React",
         "Git",
         "Figma",
-        "EmotionJS",
+        "SASS",
         "Material UI",
+        "Framer Motion",
       ],
     },
     {
-      title: "Things that I'm familiar with",
+      title: "Things that I'm familiar with:",
       technology: [
-        "SASS",
-        "Framer Motion",
-        "GSAP",
-        "Adobe Illustrator",
         "React Router",
         "React Query",
+        "EmotionJS",
+        "GSAP",
         "Story Book",
+        "Parcel",
         "NodeJS",
       ],
     },
   ],
-  experience: [],
+  experience: [
+    // (sigh) no experience yet...
+  ],
   projects: [
     {
-      name: "Bank User Interface",
-      link: "https://hessamcheraghi.github.io/sess-rip-off/",
-      summary:
-        "A simple and elegant user interface for a fictional bank, the goal was practicing the usage of array methods in JavaScript to display data in a single page application.",
-      stack: ["HTML", "CSS", "Pure JavaScript"],
+      name: "A Magnificent Landing Page for Startups",
+      summary: "A web-page to showcase my skills as a web developer.",
+      link: "https://hessamcheraghi.github.io/landing-page-v1/",
+      stack: ["React", "SASS", "Framer Motion", "Figma"],
     },
     {
-      name: "A UI update for SESS",
-      link: "#",
+      name: "A Redesign of SESS",
+      link: "https://hessamcheraghi.github.io/sess-rip-off/",
       summary:
-        "SESS (Shiraz university Education Support Subsystem) is a website where all of the support & services for students is done through it and Despite serving numerous purposes it looks too old so I made modern user interface for it.",
+        "SESS (Shiraz university Education Support Subsystem) is a website for the support & services of students of Shiraz University. Despite serving numerous purposes, it looks too old; thus, I redesigned the front-end.",
       stack: ["React", "React Router", "Material UI", "EmotionJS"],
     },
     {
-      name: "A Magnificent Landing page for startups",
-      summary: "",
-      link: "#",
-      stack: ["React", "SASS", "Framer Motion", "Figma"],
+      name: "Bank User Interface",
+      link: "https://hessamcheraghi.github.io/bank-UI/",
+      summary:
+        "A simple user interface for a fictional bank. The objective of this project was to display data in a single-page application.",
+      stack: ["HTML", "CSS", "Pure JavaScript"],
     },
-    // {
-    //   name: "My personal portfolio",
-    //   link: "#",
-    //   summary: "",
-    //   stack: ["React", "SASS", "Framer Motion", "GSAP", "Canva"],
-    // },
-    // {
-    //   name: "This resume",
-    //   link: "#",
-    //   summary: "",
-    //   stack: ["React", "Material UI"],
-    // },
   ],
-  education: [
+  other: [
     {
+      name: "Education",
       major: "Engineering Student",
-      place: "at Shiraz University",
+      place: "Shiraz University",
       duration: "2019 - now",
+    },
+    {
+      name: "Achievements",
+      major: "Ranked 136th in Math Konkour",
+      place: "(Iranian University Entrance Exam)",
+      duration: "2018",
     },
   ],
   contact: [
