@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resume-old-v1/static/css/main.bd500d3d.css",
+    "main.js": "/resume-old-v1/static/js/main.5a425eb6.js",
+    "index.html": "/resume-old-v1/index.html",
+    "main.bd500d3d.css.map": "/resume-old-v1/static/css/main.bd500d3d.css.map",
+    "main.5a425eb6.js.map": "/resume-old-v1/static/js/main.5a425eb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd500d3d.css",
+    "static/js/main.5a425eb6.js"
+  ]
+}
